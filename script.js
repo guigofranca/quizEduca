@@ -178,6 +178,8 @@ nextButton.addEventListener("click", ()=>{
 });
 
 document.getElementById("show-btn").addEventListener("click", function() {
+    let botaoHide = document.getElementById("show-btn");
+    botaoHide.style.display = "none";
     var elementHide = document.getElementById('hide');
     elementHide.removeAttribute('hide');  
     elementHide.setAttribute("id", "");

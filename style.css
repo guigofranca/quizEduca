@@ -215,7 +215,7 @@ p {
     width: 170px;
     border: 0;
     padding: 15px;
-    margin: 20px auto 0;
+    margin: 100px auto 0;
     border-radius: 4px;
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -227,7 +227,7 @@ p {
 
  #setor-principal {
   width: 1200px;
-  height: 1500px;
+  height: 3000px;
   margin: 0 auto;
   background-color: #2c7c2a;
   box-shadow: 0px 0px 52px 41px rgba(0,0,0,0.23);
@@ -249,6 +249,7 @@ p {
   align-items: center;
   flex-direction: column;
   row-gap: 23px;
+  width: 300px;
  }
 
   p, h2 {
@@ -264,6 +265,7 @@ p {
   align-items: center;
   flex-direction: column;
   row-gap: 23px;
+  width: 300px;
  }
 
  #foto3 {
@@ -272,6 +274,7 @@ p {
   align-items: center;
   flex-direction: column;
   row-gap: 23px;
+  width: 300px;
  }
 
  img {
@@ -290,10 +293,13 @@ p {
  }
 
  #formiga p {
-  max-width: 500px;
+  max-width: 600px;
  }
 
  #formigafoto {
   width: 300px;
   height: 300px;
+  margin-top: 200px;
+  margin-bottom: 50px
  }
+
