@@ -226,21 +226,20 @@ p {
  }
 
  #setor-principal {
-  width: 1200px;
-  height: 3000px;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
   background-color: #2c7c2a;
   box-shadow: 0px 0px 52px 41px rgba(0,0,0,0.23);
+  margin: 0 auto;
+  width: 80%;
+  height: 2300px;
  }
 
  #cards {
-  width: 1200px;
-  height: 600px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 100px;
-  margin: 0 auto;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  margin-top: 100px;
  }
 
  #foto1 {
@@ -256,7 +255,6 @@ p {
   text-align: center;
   color: #fff;
   font-weight: 100;
-  max-width: fit-content;
  }
 
  #foto2 {
@@ -283,13 +281,10 @@ p {
  }
 
  #formiga {
-  width: 1200px;
-  height: 300px;
+  margin-top: 150px;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 300px;
  }
 
  #formiga p {
@@ -297,9 +292,47 @@ p {
  }
 
  #formigafoto {
-  width: 300px;
-  height: 300px;
-  margin-top: 200px;
+  width: fit-content;
+  height: 280px;
   margin-bottom: 50px
  }
 
+
+ .foto {
+    flex: 1 1 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ @media screen and (max-width: 1015px) {
+  #setor-principal {
+    height: 2500px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  #setor-principal {
+    height: 2700px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  #setor-principal {
+    height: 2900px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  #setor-principal {
+    height: 3100px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  #setor-principal {
+    height: 3300px;
+  }
+}
