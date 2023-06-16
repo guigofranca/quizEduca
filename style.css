@@ -309,13 +309,13 @@ p {
  @media screen and (max-width: 1015px) {
   #setor-principal {
     height: 2500px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 720px) {
   #setor-principal {
     height: 2700px;
-    width: 100%;
   }
 }
 
