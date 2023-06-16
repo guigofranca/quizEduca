@@ -254,7 +254,8 @@ p {
   p, h2 {
   text-align: center;
   color: #f3efef;
-  font-weight: 100;
+  font-weight:500;
+  font-size: 18px;
  }
 
  #foto2 {
@@ -288,7 +289,7 @@ p {
  }
 
  #formiga p {
-  max-width: 600px;
+  max-width: 700px;
  }
 
  #formigafoto {
@@ -316,6 +317,7 @@ p {
 @media screen and (max-width: 720px) {
   #setor-principal {
     height: 2700px;
+    
   }
 }
 
